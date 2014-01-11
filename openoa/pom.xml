@@ -14,6 +14,40 @@
       <version>4.0</version>
       <scope>test</scope>
     </dependency>
+    <!-- 添加Spring支持 -->
+    <dependency>
+		<groupId>org.springframework</groupId>
+		<artifactId>spring-context</artifactId>
+		<version>4.0.0.RELEASE</version>
+	</dependency>
+	
+	<!-- 添加SpringMVC支持 -->
+	<dependency>
+		<groupId>org.springframework</groupId>
+		<artifactId>spring-webmvc</artifactId>
+		<version>4.0.0.RELEASE</version>
+	</dependency>
+	
+	<!-- 添加log4j支持 -->
+	<dependency>
+		<groupId>log4j</groupId>
+		<artifactId>log4j</artifactId>
+		<version>1.2.17</version>
+	</dependency>
+	
+	<!-- 添加slf4j支持 -->
+	<dependency>
+		<groupId>org.slf4j</groupId>
+		<artifactId>slf4j-api</artifactId>
+		<version>1.7.5</version>
+	</dependency>
+	
+	<dependency>
+		<groupId>org.slf4j</groupId>
+		<artifactId>slf4j-log4j12</artifactId>
+		<version>1.7.5</version>
+	</dependency>
+            
   </dependencies>
   
   <build>
